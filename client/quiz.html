@@ -1,13 +1,17 @@
 <template name="quiz">
-  <h2>Quiz</h2>
-  <p>Paris ?</p>
-  <ul>
-    {{> answers}}
-  </ul>
+<section class="block-list">
+	<header>Answers</header>
+	  <ul>
+	    {{> answers}}
+	  </ul>
+  </section>
 </template>
 
 <template name="answers">
   {{#each answers}}
-    <li>{{this}}</li>
+ <li class="with-chevron">
+  <input type="radio" name="delicious" id="eggs" value="eggs" checked="">
+	<label for="eggs">{{this}}</label>
+   </li>
   {{/each}}
 </template>
