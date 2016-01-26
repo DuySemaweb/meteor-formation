@@ -1,0 +1,13 @@
+<template name="quiz">
+  <h2>Quiz</h2>
+  <p>Paris ?</p>
+  <ul>
+    {{> answers}}
+  </ul>
+</template>
+
+<template name="answers">
+  {{#each answers}}
+    <li>{{this}}</li>
+  {{/each}}
+</template>
