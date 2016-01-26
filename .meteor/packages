@@ -21,3 +21,4 @@ insecure                # Allow all DB writes from clients (for prototyping)
 nerijunior:foundation6
 ushu:foundation-apps
 iron:router
+gfk:notifications
