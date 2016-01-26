@@ -1,7 +1,7 @@
-Template.body.event({
-	"click .sucess": function(event){
-		const questionLabel = event.target.questionLabel.value();
-		console.log(questionLabel);
+// Array.from(document.querySelectorAll('input')).map((f) => f.name)
 
+Template.backoffice.events({
+  'click': () => {
+	  Notifications.warn('Net')
 	}
-});
+})
