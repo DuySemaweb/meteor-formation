@@ -1,3 +1,3 @@
 Template.answers.helpers({
-  answers: ['Italie', 'France', 'Japon', 'Chine', 'Madagascar']
+  answers: function () { return Quiz.findOne().answers }
 })
