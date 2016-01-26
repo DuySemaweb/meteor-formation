@@ -1,2 +1,2 @@
-Router.route('/quiz');
-Router.route('/backoffice');
+Router.route('/quiz')
+Router.route('/backoffice')
